@@ -27,7 +27,7 @@ function renderDayBoxes(daysData) {
 
         // Unlocked boxes linking to their respective content
         dayBox.innerHTML = `
-            <a href="${data.href}" class="day-link">
+            <a href="${data.href}" class="day-link" style="color: white; text-decoration: none;">
                 <h3>Day ${data.day}</h3>
                 <p>${data.title}</p>
             </a>
