@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Your Advertising ID for Better Privacy</title>
+    <link rel="stylesheet" href="templets/day2.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 16</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"><b>Reset Advertising ID Guide</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>Improve Your Privacy by Resetting Your Advertising ID</h1>
+            <p>Advertising IDs are unique identifiers used by companies to track your activity and deliver targeted ads. Resetting your Advertising ID can help protect your privacy by giving you a fresh start and reducing the accuracy of ad tracking.</p>
+            <img src="static/DAY16_1.jpg" alt="Privacy Protection" class="responsive-img">
+        </section>
+
+        <!-- What is Advertising ID Section -->
+        <section class="impact-card">
+            <h2>What is an Advertising ID?</h2>
+            <p>An Advertising ID is a unique identifier assigned to your device, which is used to track your online behavior for the purpose of showing you personalized ads. Here’s how it works:</p>
+            <ul>
+                <li>Tracks your activity across apps and websites.</li>
+                <li>Used to create a profile of your interests for targeted advertising.</li>
+                <li>Linked to your device, not your personal identity.</li>
+                <li>Resetting it helps reduce the accuracy of ad tracking and gives you a fresh start.</li>
+            </ul>
+          
+        </section>
+
+        <!-- Why Resetting Advertising ID Is Important Section -->
+        <section class="risks-card">
+          <h2>Why Resetting Your Advertising ID is Important?</h2>
+            <p>Failing to reset your Advertising ID can expose you to the following risks:</p>
+            <ul>
+                <li>Extensive tracking across multiple apps and platforms.</li>
+                <li>Targeted ads based on a detailed profile created without your knowledge.</li>
+                <li>Loss of privacy and potential data breaches.</li>
+                <li>Reduced control over who has access to your data.</li>
+            </ul>
+            <img src="static/DAY16_2.jpg" alt="Risks of Not Resetting Advertising ID" class="responsive-img">
+        </section>
+
+        <!-- Steps to Disable or Reset Advertising ID Section -->
+        <section class="steps-card">
+            <h2>Steps to Disable or Reset Advertising ID</h2>
+            <div class="steps">
+                <!-- Step 1: Windows -->
+                <div class="step">
+                    <label for="step1">
+                        <h3>Step 1: Disable Advertising ID in Windows</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> Go to Settings > Privacy > General > Turn off “Let apps show me personalized ID”.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2: Android -->
+                <div class="step">
+                    <label for="step2">
+                        <h3>Step 2: Reset Advertising ID on Android</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> Go to Settings > Privacy > Ads > Tap on "Reset Advertising ID". You can also toggle off "Opt out of Ads Personalization" for further privacy.</p>
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/TTOmGaD4Z50?si=wWpUnGXJNSFow_Xp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Step 3: iOS -->
+                <div class="step">
+                    <label for="step3">
+                        <h3>Step 3: Disable Advertising ID on iOS</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p><b>Instructions:</b> Go to Settings > Privacy > Tracking > Toggle off "Allow Apps to Request to Track".</p>
+                        
+                        <iframe width="auto" height="auto" src="https://www.youtube.com/embed/KzdtwMZR1_0?si=Prv3NeyRAV_11TQe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Done Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Reset Advertising ID Guide. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>

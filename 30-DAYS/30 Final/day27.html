@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Attacks</title>
+    <link rel="stylesheet" href="templets/day27.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 27</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b>Cyber-Attacks: III</b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>Familiarize Yourself with Password Attacks: Brute Force, Dictionary Attacks, and How to Defend Against Them</h1>
+            <h2>What are Password Attacks</h2>
+            <p>Password attacks are attempts by cybercriminals to gain unauthorized access to your accounts or systems by cracking or guessing your passwords. Two common types of password attacks are brute force and dictionary attacks:</p>
+            <ul>
+                <li><b>Brute Force Attack:  </b>In a brute force attack, the attacker systematically tries every possible combination of characters until they guess the correct password.</li><br>
+                <li><b>Dictionary Attack: </b>A dictionary attack involves using a list of common passwords or dictionary words to attempt to break into an account. This method is faster than brute force because it uses precompiled lists of known, frequently used passwords.</li><br>
+            </ul>
+        <img src="static/day27.png.crdownload" alt="Strong Passwords" class="responsive-img">
+        </section>
+
+        <section class="impact-card">
+            <h2>Real-Life Example: The Yahoo Data Breach</h2>
+            <p>One of the largest data breaches in history occurred in 2013 and affected Yahoo. Over 3 billion accounts were compromised, primarily due to weak passwords that attackers exploited through password-guessing techniques, including brute force and dictionary attacks. The breach exposed sensitive information such as names, phone numbers, and hashed passwords, ultimately causing significant financial and reputational damage to Yahoo. It highlighted the dangers of using weak passwords and reusing them across multiple platforms.</p>
+        <img src="static/day27_1.jpg" alt="Wanna cry image" class="responsive-img">
+        </section>
+
+        <section class="risks-card">
+            <h2>Risks of Not Defending Against Password Attacks</h2>
+            <ul>
+                <br>    
+                <li><b>Account Compromise: </b>Weak or reused passwords make it easier for attackers to take over your accounts, giving them access to everything from your emails to your bank accounts.</li><br>
+                <li><b>Identity Theft: </b>Once attackers have your password, they can steal your personal information, apply for loans in your name, or commit other fraudulent activities.</li><br>
+                <li><b>Financial Loss: </b>Whether through personal accounts or business systems, attackers can steal funds, drain bank accounts, or cause significant financial damage.</li><br>
+                <li><b>Reputation Damage: </b>For businesses, a breach caused by weak passwords can erode customer trust and damage your brand’s reputation.
+                </li><br>
+            </ul>
+        </section>
+
+        <!-- <section class="risks-card">
+            <h2>Importance of Understanding Ransomware</h2>
+            <p>There is a reason why most business peoples and firms fear ransomware:</p>
+            <ul>
+                <li><b>Prevents Data Loss: </b>Ransomware can lock you out of critical files and systems, causing irreversible data loss if backups aren’t available.</li><br>
+                <li><b>Protects Financial and Personal Information: </b>Paying the ransom does not guarantee that attackers will unlock your data, and you might be at risk of further exploitation.</li><br>
+                <li><b>Reduces Financial Impact: </b> Ransom payments can be expensive, sometimes running into thousands or millions of dollars, not to mention the cost of recovering from the attack.</li><br>
+            </ul>
+            <img src="static/Phishing-graphic-3.4.19-Converted.png" alt="Risks of Weak Passwords" class="responsive-img">
+        </section> -->
+
+        
+
+         <section class="steps-card">
+            <h2>How to Defend Against Password Attacks</h2>
+            <div class="steps">
+                <div class="step">
+                    <label for="step1">
+                        <h3>1. Use Strong, Unique Passwords</h3>                        <button class="instruction">Show Tips</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>
+                            <p>Weak passwords are easy to crack through both brute force and dictionary attacks. By using strong, complex passwords, you make it harder for attackers to guess your credentials.</p><br>
+                            <p><b>Step:</b></p>
+                            <ul>
+                                <li>
+                                    Create passwords with at least 12-16 characters, including a mix of uppercase and lowercase letters, numbers, and special characters.<br/><br/>
+                        
+                                </li>
+                                <li>
+                                    Avoid common words or easily guessable information like birthdates, names, or simple number sequences.<br/><br/>
+                                </li>
+                                <li>Don’t reuse passwords across multiple sites or accounts.<br/><br/></li>
+                            </ul>
+                        </p></div>
+                </div>
+                <div class="step">
+                    <label for="step2">
+                        <h3>2. Enable Multi-Factor Authentication (MFA)</h3>
+                        <button class="instruction">Show Tips</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>
+                            <p>MFA adds an additional layer of security by requiring more than just a password to access your accounts. Even if an attacker obtains your password, they will still need the second authentication factor, such as a code sent to your phone.</p>
+                            <!-- <ul>
+                                <li>Install trusted antivirus software (e.g., Norton, Bitdefender, or Malwarebytes).<br/><br/></li>
+                                <li>Ensure real-time protection is enabled to block ransomware before it runs.<br/><br/></li>
+                                <li>Set up automatic updates to keep your security software up to date against the latest threats.<br/><br/></li>
+                            </ul> -->
+                        
+                        </p>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step3">
+                        <h3>3. Use a Password Manager</h3>
+                        <button class="instruction">Show Tips</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>
+                            <p>A password manager can generate and store strong, unique passwords for all your accounts, ensuring that each account has a different, secure password without requiring you to remember them all.</p><br>
+                            <p><b>Step:</b></p>
+                            <ul>
+                                <li>Download a reputable password manager such as LastPass, Bitwarden, or 1Password.<br/><br/></li>
+                                <li>Let the manager create strong, random passwords for each of your accounts.<br/><br/></li>
+                                <li>Store all your credentials securely and use the manager’s auto-fill feature to simplify the login process.<br/><br/></li>
+                            </ul>                    
+                        </p>                       
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step4">
+                        <h3>4. Limit Login Attempts</h3>
+                        <button class="instruction">Show Tips</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        
+                        <p>
+                            <p>By limiting the number of incorrect login attempts on your accounts, you can prevent brute force attacks that rely on systematically guessing passwords.</p><br>
+                            <p><b>Steps:</b></p>
+                            <ul>
+                                <li>Use services that automatically lock accounts after a certain number of failed login attempts.<br/><br/></li>
+                                <li>If you run a website or service, implement rate-limiting features that temporarily block IP addresses after multiple incorrect login attempts.<br/><br/></li>
+                                <li>Set up alerts to notify you of any unusual or failed login attempts on your accounts.<br/><br/></li>
+
+                            </ul>
+                    
+                        </p> 
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step5">
+                        <h3>5. Use CAPTCHA or reCAPTCHA</h3>
+                        <button class="instruction">Show Tips</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        
+                        <p>
+                            <p>By limiting the number of incorrect login attempts on your accounts, you can prevent brute force attacks that rely on systematically guessing passwords.</p><br>
+                            <p><b>Steps:</b></p>
+                            <ul>
+                                <li>For personal accounts, choose services that use CAPTCHA challenges during the login process.<br/><br/></li>
+                                <li>If you manage a website, enable CAPTCHA for all login, registration, and password recovery forms to reduce automated attacks.<br/><br/></li>
+
+                            </ul>
+                    
+                        </p> 
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step6">
+                        <h3>6. Regularly Update Passwords</h3>
+                        <button class="instruction">Show Tips</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        
+                        <p>
+                            <p>Changing your passwords regularly can help minimize the risk if an attacker has already compromised one of your accounts. Frequent updates ensure that even if a password is exposed, the window of opportunity for an attacker is short.</p><br>
+                            <p><b>Steps:</b></p>
+                            <ul>
+                                <li>Change your passwords every 3 to 6 months, especially for critical accounts like banking, email, or any sensitive services.<br/><br/></li>
+                                <li>Set reminders or use your password manager to alert you when it’s time to update your passwords.<br/><br/></li>
+                            </ul>
+                    
+                        </p> 
+                    </div>
+                </div>
+                
+                <div class="password-container">
+                    <h2>Password Strength Checker</h2>
+                    <input type="password" id="password" placeholder="Enter your password">
+                    <p id="strength-message">Strength: <span id="strength"></span></p>
+                    <img id="password-image" src="" alt="Password Strength" style="display: none;">
+                </div>
+                
+            </div>
+        </section> 
+
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 30 Days CyberSecurity Challenge. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+
+        const passwordInput = document.getElementById('password');
+const strengthDisplay = document.getElementById('strength');
+const passwordImage = document.getElementById('password-image');
+
+passwordInput.addEventListener('input', function () {
+    const password = passwordInput.value;
+    const strength = checkPasswordStrength(password);
+    
+    strengthDisplay.textContent = strength;
+    strengthDisplay.className = strength.toLowerCase();
+    
+    updatePasswordImage(strength);
+});
+
+        function checkPasswordStrength(password) {
+            if (password.length < 6) {
+                return "Weak";
+            } else if (password.length >= 6 && password.length <= 10) {
+                if (/[A-Za-z]/.test(password) && /\d/.test(password)) {
+                    return "Medium";
+                } else {
+                    return "Weak";
+                }
+            } else if (password.length > 10) {
+                if (/[A-Za-z]/.test(password) && /\d/.test(password) && /[!@#$%^&*(),.?":{}|<>]/.test(password)) {
+                    return "Strong";
+                } else {
+                    return "Medium";
+                }
+            }
+        }
+
+        function updatePasswordImage(strength) {
+            if (strength === "Weak") {
+                passwordImage.src = "static/day27_2.png"; // Path to the weak image
+                passwordImage.style.display = 'block';
+            } else if (strength === "Medium") {
+                passwordImage.src = "static/day27_3.png"; // Path to the medium image
+                passwordImage.style.display = 'block';
+            } else {
+                passwordImage.src = "static/day27_4.png";
+                passwordImage.style.display = 'block'; // Hide the image if the password is strong
+            }
+        }
+
+    </script>
+</body>
+</html>

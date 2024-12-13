@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Sharing & Shortening</title>
+    <link rel="stylesheet" href="templets/day1new.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 13</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b>Enhance Security & Improve Link Sharing</Link></b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>Why Shorten your Links</h1>
+            <p>
+                <ul> 
+                   <li> Short URLs look clean, professional, and easier to read.</li>
+                   <li>Easier Sharing: Short links are ideal for platforms with character limits, like social media or messaging apps.</li>
+                   <li>Tracking & Analytics: Most URL shorteners offer tracking, allowing you to measure clicks, engagement, and user behavior.</li>
+                   <li>Custom Branding: Many services let you create branded short links, building trust with your audience.</li>
+                   <li>Prevent Link Breakage: Long URLs are prone to breaking when pasted into emails or messages. Short links maintain functionality.</li>
+                </ul>
+            </p>
+        <img src="static/LinkShortening .png" alt="LinkShortening" class="responsive-img">
+        </section>
+
+        <section class="impact-card">
+            <h2>Real-Life Incident</h2>
+            <p>In the 2012 Obama re-election campaign, shortened links helped track user engagement and optimize outreach. Clean, shareable URLs improved professionalism and saved space on platforms like Twitter. The data gathered from shortened links allowed real-time strategy adjustments, boosting engagement and contributing to the campaign's success.</p>
+        <img src="static/Obama.png" alt="Obama campaign" class="responsive-img">
+        </section>
+
+        <section class="risks-card">
+            <h2>Risks of Not shortening links</h2>
+            <p>Failing to update your software can expose you to various risks, including:</p>
+            <ul>
+                <li>Suspicion: Long Complicated URLs can appear untrustworthy to users.</li>
+                <li>Long URLs take up too much valuable space on platform.</li>
+                <li>Without Shortening, you lose the opportunity to gather insights on your links performance.</li>
+                <li>Users may avoid clicking on confusing or lengthy links.</li>
+            </ul>
+            <img src="static/Risk_of_not_link_shortening.png" alt="Risks of Not Shortening your links " class="responsive-img">
+        </section>
+
+        <section class="steps-card">
+            <h2>Challenge Steps</h2>
+            <div class="steps">
+                <div class="step">
+                    <label for="step1">
+                        <h3>Step 1: Choose a URL shortener</h3>                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>
+                            <ul>
+                                 <li><strong>Bitly</strong><br/><br/></li>
+                                <li><strong>TinyURL</strong><br/><br/></li>
+                            </ul>
+                            <p><b>Instructions:</b> Go to any browser of Choice and search for either "TinyURL" or "Bitly"</p>
+                            <img src="static/Best_URL_shortener.jpg" alt="Strong Passwords" class="responsive-img"> 
+                        </p></div>
+                </div>
+                <div class="step">
+                    <label for="step2">
+                        <h3>Step 2: Enter the original URLs</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>
+                           
+                            <p><b>Instructions:</b> Paste your long link into the shortener tool, and it will generate a new, compact version.</p>
+                            <img src="static/original_link.png" alt="Strong Passwords" class="responsive-img">
+
+                        </p>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step3">
+                        <h3>Step 3: Use custom features</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>
+                            <p><b>Instructions:</b> Some services allow you to customise the short link to make it more recognizable(eg.company-branded URLs).</p>
+                            <img src="static/Customfeatures.png" alt="Strong Passwords" class="responsive-img">                    
+                        </p>                       
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step4">
+                        <h3>Step 4: Track your links performance</h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        
+                        <p>
+                          
+                            <p><b>Instructions:</b> Review the analytics provided by the shortener to understand how many clicks your link gets and from where. Services like ShortURL allow to track the number of clicks your URL has recieved.</p>
+                            <img src="static/tracking.png" alt="Strong Passwords" class="responsive-img"> 
+                        </p> 
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step5">
+                        <h3>Step 5: Share on your Platforms </h3>
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>
+                            <p><b>Instructions:</b>  Use the shortened URL in emails, social media, or SMS for better engagement.</p>
+                            <img src="static/Share.png" alt="Strong Passwords" class="responsive-img"> 
+                        </p>
+
+                    </div>
+                    
+                </div>
+                
+                
+
+                
+            </div>
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 30 Days CyberSecurity Challenge. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Security</title>
+    <link rel="stylesheet" href="templets/day4.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 12</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b> Implement browser security </b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>Why Should You Focus on Browser Security?</h1>
+            <p>Your web browser is the gateway to the internet, and it’s also a potential entry point for hackers and malicious entities. Securing your browser is crucial for protecting your data, privacy, and devices from online threats. Two effective ways to enhance browser security are using security-focused extensions and regularly clearing the cache.</p>
+            <img src="static\supermeme_14h54_13.png" alt="meme" class="responsive-img">
+        </section>
+
+        <section class="impact-card">
+            <h2>Importance of Browser Security</h2>
+            <!-- <p>In 2019, the data breach of a major social media platform exposed millions of user passwords that were stored in plain text. This incident underlined the necessity of using strong, unique passwords for each account to safeguard against such breaches. The breach led to financial loss and damaged the company's reputation.</p> -->
+            <p>Browser Security is essential because it:</p>
+            <ul>
+                <li><b>Protects Your Data and Privacy: </b> Secure browsing helps protect your personal data (e.g., passwords, banking details, browsing history) from hackers and data-harvesting scripts.</li><br>
+                <li><b>Blocks Malicious Content: </b> By using the right browser extensions, you can block malicious ads, pop-ups, and tracking cookies that compromise your privacy and device security.</li><br>
+                <li><b>Prevents Phishing Attacks: </b>Many phishing scams rely on browsers to steal sensitive information. Security extensions can detect and block these attacks, while clearing your cache regularly prevents stored data from being misused.</li><br>
+            </ul>
+            <img src="static/Untitled-design-10.webp" alt="secure browser" class="responsive-img">
+       
+        </section>
+
+        <section class="impact-card">
+            <h2>Importance of clearing cache</h2>
+            <!-- <p>In 2019, the data breach of a major social media platform exposed millions of user passwords that were stored in plain text. This incident underlined the necessity of using strong, unique passwords for each account to safeguard against such breaches. The breach led to financial loss and damaged the company's reputation.</p> -->
+            <p>Clearing your cache improves browser performance by removing outdated files and helps protect your privacy by eliminating stored data that could be exploited by trackers or attackers. It ensures you see the latest site updates and reduces security risks from old, vulnerable cache data.</p>
+            <img src="static/cacheclear.jpg" alt="Data Breach Incident" class="responsive-img">
+
+            <!-- <img src="data-breach.jpg" alt="Data Breach Incident" class="responsive-img"> -->
+        </section>
+
+        <section class="impact-card">
+            <h2>Risks of Not Implementing Browser Security</h2>
+            <!-- <p>In 2019, the data breach of a major social media platform exposed millions of user passwords that were stored in plain text. This incident underlined the necessity of using strong, unique passwords for each account to safeguard against such breaches. The breach led to financial loss and damaged the company's reputation.</p> -->
+            <!-- <p>Browser Security is essential because it:</p> -->
+            <ul>
+                <li><b>Increased Vulnerability to Malware: </b> Without security extensions, your browser is more susceptible to malware, ransomware, and spyware. Malicious ads or unprotected sites can deliver harmful software to your computer.</li><br>
+                <li><b>Tracking and Data Harvesting: </b> Websites and third-party services can track your online activities via cookies, potentially collecting sensitive data. Failure to use extensions like ad blockers or privacy tools may allow your personal information to be harvested without consent.</li><br>
+                <li><b>Slow Performance: </b>An overloaded cache can slow down your browser, making it harder to navigate the web efficiently. Old data stored in your cache can also contain vulnerabilities that hackers could exploit.</li><br>
+            </ul>
+            <!-- <img src="data-breach.jpg" alt="Data Breach Incident" class="responsive-img"> -->
+        </section>
+
+        <section class="impact-card">
+            <h2>Real-Life Example: The Equifax Data Breach and Browser Vulnerabilities</h2>
+            <!-- <p>In 2019, the data breach of a major social media platform exposed millions of user passwords that were stored in plain text. This incident underlined the necessity of using strong, unique passwords for each account to safeguard against such breaches. The breach led to financial loss and damaged the company's reputation.</p> -->
+            <p>In 2017, Equifax, one of the largest credit reporting agencies, suffered a massive data breach affecting <b>147 million people</b>. While the root cause was a server vulnerability, users were further exposed because they were not taking basic security measures such as blocking tracking scripts and malicious content. Hackers exploited these weaknesses to gain access to user information, highlighting the importance of proactive browser security.</p>
+            
+            <!-- <img src="data-breach.jpg" alt="Data Breach Incident" class="responsive-img"> -->
+        </section>
+
+        <section class="impact-card">
+            <h2>Important Extensions to Consider:</h2>
+            
+            <ul>
+                <li><b>Ad Blocker (e.g., uBlock Origin or AdBlock Plus) </b></li><br>
+                <li><b>Privacy-Focused Extension (e.g., Privacy Badger or Ghostery)</b> </li><br>
+                <li><b>Password Manager (e.g., LastPass or Bitwarden)</b></li><br>
+                <li><b>HTTPS Everywhere</b></li>
+            </ul>
+            <!-- <img src="data-breach.jpg" alt="Data Breach Incident" class="responsive-img"> -->
+        </section>
+
+        
+
+        <section class="steps-card">
+            <h2>Challenge Steps</h2>
+            <div class="steps">
+                <div class="step">
+                    <label for="step1">
+                        <h3>Visual Guide: Install Security Extensions</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>
+                            <p><b>Tip:</b> Be cautious when installing extensions. Only use well-known extensions with good reviews to avoid accidentally installing malicious software.</p>
+                        </p>
+                        <div class="slideshow-container" id="extension-slideshow">
+                            <div class="mySlides">
+                                <img src="static/extension1.jpg" alt="Instagram MFA Step 1">
+                                <div class="step-caption">Step 1: Go to the Chrome Web Store.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/extension2.jpg" alt="Instagram MFA Step 2">
+                                <div class="step-caption">Step 2: Search for the desired extension.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/extension3.jpg" alt="Instagram MFA Step 3">
+                                <div class="step-caption">Step 3: Click "Add to Chrome" and then confirm.</div>
+                            </div>  
+                        </div>
+                        <div class="button-container">
+                            <button class="button" onclick="plusSlidesExtension(-1)">&#10094; Previous</button>
+                            <button class="button" onclick="plusSlidesExtension(1)">Next &#10095;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step2">
+                        <h3>Visual Guide: Clear Browser Cache and Cookies</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <div class="slideshow-container" id="cache-slideshow">
+                            <div class="mySlides">
+                                <img src="static/Screenshot 2024-10-03 151420.png" alt="Gmail 2FA Step 1">
+                                <div class="step-caption">Step 1: Open Chrome and click on the three-dot menu in the top-right corner.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/cachehistory2.jpg" alt="Gmail 2FA Step 2">
+                                <div class="step-caption">Step 2: Select More Tools > Clear browsing data. </div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/cachehistory3.jpg" alt="Gmail 2FA Step 3">
+                                <div class="step-caption">Step 3: Choose a time range (e.g., last hour, last 24 hours, or all time).</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/cachehistory4.jpg" alt="Gmail 2FA Step 4">
+                                <div class="step-caption">Step 4: Check the boxes for Cookies and other site data and Cached images and files. Click Clear data.</div>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button class="button" onclick="plusSlidesCache(-1)">&#10094; Previous</button>
+                            <button class="button" onclick="plusSlidesCache(1)">Next &#10095;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step3">
+                        <h3>Visual Guide: Enable "Do Not Track"</h3> 
+                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        
+                        <div class="slideshow-container" id="notrack-slideshow">
+                            <div class="mySlides">
+                                <img src="static/notrack1.jpg" alt="Twitter 2FA Step 1">
+                                <div class="step-caption">Step 1: Open Chrome and click the three-dot menu. Go to Settings > Privacy and Security.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/notrack2.jpg" alt="Twitter 2FA Step 2">
+                                <div class="step-caption">Step 2: Click on Cookies and other site data.</div>
+                            </div>
+                            <div class="mySlides">
+                                <img src="static/notrack3.jpg" alt="Twitter 2FA Step 3">
+                                <div class="step-caption">Step 3: Toggle on the switch for Send a “Do Not Track” request with your browsing traffic.
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="button-container">
+                            <button class="button" onclick="plusSlidesNotrack(-1)">&#10094; Previous</button>
+                            <button class="button" onclick="plusSlidesNotrack(1)">Next &#10095;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <label for="step1">
+                        <h3>Use Private Browsing or Incognito Mode</h3>                        <button class="instruction">Instructions</button>
+                    </label>
+                    <div class="instruction-content" style="display: none;">
+                        <p>
+                            <p>Private browsing (or Incognito Mode) ensures that no cookies, cache, or history is saved once the session is closed. It’s useful when browsing on shared devices or conducting sensitive activities online.</p>
+                            <p><b>How to Open Private Browsing:</b></p>
+                            <ul>
+                                <li>
+                                    <strong>Chrome: </strong>Click the three-dot menu and select New Incognito Window.<br/><br/>
+                        
+                                </li>
+                                <li>
+                                    <strong>Firefox: </strong>Click the menu button and select New Private Window.<br/><br/>
+                                </li>
+                                <li><strong>Edge: </strong>Click the three-dot menu and select New InPrivate Window.<br/><br/></li>
+                            </ul>
+                            <p><b>Tip:</b>Private browsing doesn’t make you anonymous on the web, but it prevents local data from being saved.</p>
+                        </p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 30 Days CyberSecurity Challenge. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+
+        let slideIndexExtension = 0;
+        let slideIndexCache = 0;
+        let slideIndexNotrack = 0;
+
+        function showSlidesExtension(n) {
+            const slides = document.getElementById("extension-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexExtension += n;
+            if (slideIndexExtension >= slides.length) { slideIndexExtension = 0; }
+            if (slideIndexExtension < 0) { slideIndexExtension = slides.length - 1; }
+            slides[slideIndexExtension].style.display = "block";
+        }
+
+        function plusSlidesExtension(n) {
+            showSlidesExtension(n);
+        }
+
+        function showSlidesCache(n) {
+            const slides = document.getElementById("cache-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexCache += n;
+            if (slideIndexCache >= slides.length) { slideIndexCache = 0; }
+            if (slideIndexCache < 0) { slideIndexCache = slides.length - 1; }
+            slides[slideIndexCache].style.display = "block";
+        }
+
+        function plusSlidesCache(n) {
+            showSlidesCache(n);
+        }
+
+        function showSlidesNotrack(n) {
+            const slides = document.getElementById("notrack-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexNotrack += n;
+            if (slideIndexNotrack >= slides.length) { slideIndexNotrack = 0; }
+            if (slideIndexNotrack < 0) { slideIndexNotrack = slides.length - 1; }
+            slides[slideIndexNotrack].style.display = "block";
+        }
+
+        function plusSlidesNotrack(n) {
+            showSlidesNotrack(n);
+        }
+
+        // Initial display
+        showSlidesExtension(0);
+        showSlidesCache(0);
+        showSlidesNotrack(0);
+    </script>
+    
+</body>
+</html>

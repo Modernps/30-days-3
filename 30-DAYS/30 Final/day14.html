@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backup Critical Data</title>
+    <link rel="stylesheet" href="templets/day14.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="calendar">
+            <div class="calendar-day">
+                <p>Day 14</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="head">
+        <p><a href="index.html"> <b>Backup Critical Data </b></a></p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <section class="intro">
+            <h1>What is data backup</h1>
+            <p>Data backup is the process of making a copy of your data and storing it separately from the original in case it gets lost, damaged, or deleted. The backup copy can then be used to restore your data, which can be helpful in the event of a natural disaster, cyberattack, or other data loss.</p>
+        <img src="static/what.jpg" alt="Strong Passwords" class="responsive-img">
+        </section>
+
+        <section class="impact-card">
+            <h2>Benefits of Data Backup for Protection and Recovery</h2>
+            <p>
+                <ul>
+                    <li><strong>Data loss prevention:</strong> Backups protect against accidental deletion, hardware failures, or corruption.</li><br>
+                    <li><strong>Cyberattack protection:</strong> Backups enable recovery from ransomware or malware attacks.</li><br>
+                    <li><strong>Disaster recovery:</strong> Backups ensure quick restoration after natural disasters or system crashes.</li><br>
+                    <li><strong>Business continuity:</strong> Maintains access to essential data, preventing operational disruptions.</li><br>
+                    <li><strong>Compliance:</strong> Backups help meet regulatory requirements for data protection and audits.</li>
+                </ul>
+            </p>
+        <img src="static/why.jpg" alt="Why should we backup" class="responsive-img">
+        </section>
+
+        <section class="risks-card">
+            <h2>Risks of Not Implementing Data Backup</h2>
+        <p>
+            <ul>
+                <li><strong>Permanent data loss:</strong> Without backups, data lost due to deletion, hardware failure, or corruption cannot be recovered.</li><br>
+                <li><strong>Increased downtime:</strong> Restoring operations after system failures or disasters takes longer without backups.</li><br>
+                <li><strong>Vulnerability to cyberattacks:</strong> Ransomware or malware attacks could make data unrecoverable without backups.</li><br>
+                <li><strong>Financial loss:</strong> Recovery from data loss or breaches can be expensive and time-consuming.</li><br>
+                <li><strong>Regulatory non-compliance:</strong> Failing to meet backup requirements can lead to legal penalties.</li><br>
+                <li><strong>Loss of customer trust:</strong> Data loss can damage reputation and result in lost business.</li>
+            </ul>
+        </p>
+            
+            <img src="static/day14risk.jpg" alt="Risks of Weak Passwords" class="responsive-img">
+        </section>
+
+        <section class="steps-card">
+            <h2>Challenge Steps</h2>
+            
+            <div class="step">
+                <label for="step2">
+                    <h3>Android backup</h3> 
+                    <button class="instruction">Instructions</button>
+                </label>
+                <div class="instruction-content" style="display: none;">
+                    <div class="slideshow-container" id="gmail-slideshow">
+                        <div class="mySlides">
+                            <img src="static/a1.jpg" alt="Gmail 2FA Step 1">
+                            <div class="step-caption">Step 1: Open <b>settings.</b></div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/a2.jpg" alt="Gmail 2FA Step 2">
+                            <div class="step-caption">Step 2: Go to <b>backup and restore.</b></div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/a3.jpg" alt="Gmail 2FA Step 3">
+                            <div class="step-caption">Step 3: Select <b>backup.</b></div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/a4.jpg" alt="Gmail 2FA Step 4">
+                            <div class="step-caption">Step 4:Tap on <b>Back up now.</b></div>
+                        </div>
+                       
+                    </div>
+                    <div class="button-container">
+                        <button class="button" onclick="plusSlidesFacebook(-1)">&#10094; Previous</button>
+                        <button class="button" onclick="plusSlidesFacebook(1)">Next &#10095;</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="step">
+                <label for="step2">
+                    <h3>iOS backup</h3> 
+                    <button class="instruction">Instructions</button>
+                </label>
+                <div class="instruction-content" style="display: none;">
+                    <div class="slideshow-container" id="instagram-slideshow">
+                        <div class="mySlides">
+                            <img src="static/o1.jpg" alt="Gmail 2FA Step 1">
+                            <div class="step-caption">Step 1: Open <b>settings.</b></div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/o2.jpg" alt="Gmail 2FA Step 2">
+                            <div class="step-caption">Step 2: Go to <b>iCloud Backup.</b> </div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/o3.jpg" alt="Gmail 2FA Step 3">
+                            <div class="step-caption">Step 3: Tap on <b>Back up now.</b></div>
+                        </div>
+                        
+                       
+                    </div>
+                    <div class="button-container">
+                        <button class="button" onclick="plusSlidesInstagram(-1)">&#10094; Previous</button>
+                        <button class="button" onclick="plusSlidesInstagram(1)">Next &#10095;</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="step">
+                <label for="step2">
+                    <h3>MacOS backup</h3> 
+                    <button class="instruction">Instructions</button>
+                </label>
+                <div class="instruction-content" style="display: none;">
+                    <div class="slideshow-container" id="twitter-slideshow">
+                        <div class="mySlides">
+                            <img src="static/m1.webp" alt="Gmail 2FA Step 1">
+                            <div class="step-caption">Step 1: Open <b>Time Machine.</b></div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/m2.webp" alt="Gmail 2FA Step 2">
+                            <div class="step-caption">Step 2: <b>Select Backup Disk.</b> </div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/m3.webp" alt="Gmail 2FA Step 3">
+                            <div class="step-caption">Step 3: Choose <b>Backup Disk</b> and Confirm.</div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/m4.webp" alt="Gmail 2FA Step 3">
+                            <div class="step-caption">Step 4: Tap on <b>Back up Automatically.</b></div>
+                        </div>
+                        
+                       
+                    </div>
+                    <div class="button-container">
+                        <button class="button" onclick="plusSlidesTwitter(-1)">&#10094; Previous</button>
+                        <button class="button" onclick="plusSlidesTwitter(1)">Next &#10095;</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="step">
+                <label for="step2">
+                    <h3>Windows backup</h3> 
+                    <button class="instruction">Instructions</button>
+                </label>
+                <div class="instruction-content" style="display: none;">
+                    <div class="slideshow-container" id="Windows-slideshow">
+                        <div class="mySlides">
+                            <img src="static/w1.webp" alt="Gmail 2FA Step 1">
+                            <div class="step-caption">Step 1: Open <b>Control panel.</b></div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/w2.jpg" alt="Gmail 2FA Step 2">
+                            <div class="step-caption">Step 2: Open <b>Create a system image.</b> </div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/w3.jpg" alt="Gmail 2FA Step 3">
+                            <div class="step-caption">Step 3: Select Destination for <b>System Image Backup.</b></div>
+                        </div>
+                        <div class="mySlides">
+                            <img src="static/w4.jpg" alt="Gmail 2FA Step 3">
+                            <div class="step-caption">Step 4: Confirm Backup Settings and <b>Start Backup.</b></div>
+                        </div>
+                        
+                       
+                    </div>
+                    <div class="button-container">
+                        <button class="button" onclick="plusSlidesWindows(-1)">&#10094; Previous</button>
+                        <button class="button" onclick="plusSlidesWindows(1)">Next &#10095;</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Back Button -->
+        <div class="back-button">
+            <a href="index.html" id="complete" class="button">Done</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 30 Days CyberSecurity Challenge, All rights reserved.</p>
+    </footer>
+
+    <script>
+        const instructButtons = document.getElementsByClassName('instruction');
+        for (let i = 0; i < instructButtons.length; i++) {
+            instructButtons[i].addEventListener('click', function() {
+                const content = this.parentElement.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        }
+
+        let slideIndexInstagram = 0;
+        let slideIndexFacebook = 0;
+        let slideIndexTwitter = 0;
+        let slideIndexWindows = 0;
+
+        function showSlidesInstagram(n) {
+            const slides = document.getElementById("instagram-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexInstagram += n;
+            if (slideIndexInstagram >= slides.length) { slideIndexInstagram = 0; }
+            if (slideIndexInstagram < 0) { slideIndexInstagram = slides.length - 1; }
+            slides[slideIndexInstagram].style.display = "block";
+        }
+
+        function plusSlidesInstagram(n) {
+            showSlidesInstagram(n);
+        }
+
+        function showSlidesWindows(n) {
+            const slides = document.getElementById("Windows-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexWindows += n;
+            if (slideIndexWindows >= slides.length) { slideIndexWindows = 0; }
+            if (slideIndexWindows < 0) { slideIndexWindows = slides.length - 1; }
+            slides[slideIndexWindows].style.display = "block";
+        }
+
+        function plusSlidesWindows(n) {
+            showSlidesWindows(n);
+        }
+
+        function showSlidesFacebook(n) {
+            const slides = document.getElementById("gmail-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexFacebook += n;
+            if (slideIndexFacebook >= slides.length) { slideIndexFacebook = 0; }
+            if (slideIndexFacebook < 0) { slideIndexFacebook = slides.length - 1; }
+            slides[slideIndexFacebook].style.display = "block";
+        }
+
+        function plusSlidesFacebook(n) {
+            showSlidesFacebook(n);
+        }
+
+        function showSlidesTwitter(n) {
+            const slides = document.getElementById("twitter-slideshow").getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndexTwitter += n;
+            if (slideIndexTwitter >= slides.length) { slideIndexTwitter = 0; }
+            if (slideIndexTwitter < 0) { slideIndexTwitter = slides.length - 1; }
+            slides[slideIndexTwitter].style.display = "block";
+        }
+
+        function plusSlidesTwitter(n) {
+            showSlidesTwitter(n);
+        }
+
+        // Initial display
+        showSlidesInstagram(0);
+        showSlidesFacebook(0);
+        showSlidesTwitter(0);
+        showSlidesWindows(0);
+    </script>
+
+
+
+
+</body>
+</html>
